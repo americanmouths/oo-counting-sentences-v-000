@@ -29,7 +29,6 @@ end
   def count_sentences
     sentences = self.split(/\.!?(?=[\w])/)
     sentences.count
-    binding.pry
   end
 
 end
