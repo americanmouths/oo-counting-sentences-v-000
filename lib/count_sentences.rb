@@ -30,7 +30,6 @@ end
     sentences = self.split(/\.!?(?=[\w])/)
     sentences.count
     return sentences
-    binding.pry
   end
 
 end
