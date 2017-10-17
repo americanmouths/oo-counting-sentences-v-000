@@ -29,6 +29,7 @@ end
   def count_sentences
     sentences = self.split(/[\s!?.]/)
     sentences.count
+    return sentences
     binding.pry
   end
 
