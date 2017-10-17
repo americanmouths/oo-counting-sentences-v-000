@@ -19,10 +19,18 @@ end
   end
 
   def exclamation?
-
+    if self.end_with?("!")
+      true
+    else
+      false
+    end
   end
 
   def count_sentences
-
+    sentences = self.split(/[\s!?.]/)
+    sentences.count
+    binding.pry
   end
+  end
+  
 end
