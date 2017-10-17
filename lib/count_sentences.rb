@@ -31,6 +31,5 @@ end
     sentences.count
     binding.pry
   end
-  end
-  
+
 end
